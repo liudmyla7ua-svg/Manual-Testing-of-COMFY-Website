@@ -15,14 +15,14 @@
 | CH-003 | Header navigation links | Each navigation link redirects the user to the correct page | Not Run |
 | CH-004 | Navigate to a product category | Correct category page opens | Not Run |
 | CH-005 | Verify footer links | Links redirect to the correct pages | Not Run |
-| CH-006 | Verify city selection	The list of available cities is displayed, and the selected city is shown correctly |	Not Run |
-| CH-007 | Verify language switching	The website content is displayed in the selected language |	Not Run |
-| CH-008 | Verify product search by product name	Relevant search results are displayed |	Not Run |
-| CH-009 | Verify search with a non-existent product name	A clear message indicating that no results were found is displayed |	Not Run |
-| CH-010 | Verify promotional banners	Clicking a promotional banner redirects the user to the corresponding promotion or page | Not Run |
-| CH-011 | Verify closing the sign-in pop-up	The pop-up is closed, and the main page content remains accessible | Not Run |
-| CH-012 | Verify the newsletter subscription form	The email field validates the email format, and invalid email addresses are rejected | Not Run |
-| CH-013 | Verify the customer support chat widget	The chat widget opens, and its main elements are available | Not Run |
+| CH-006 | Verify city selection | The list of available cities is displayed, and the selected city is shown correctly |	Not Run |
+| CH-007 | Verify language switching | The website content is displayed in the selected language |	Not Run |
+| CH-008 | Verify product search by product name | Relevant search results are displayed |	Not Run |
+| CH-009 | Verify search with a non-existent product name |	A clear message indicating that no results were found is displayed |	Not Run |
+| CH-010 | Verify promotional banners |	Clicking a promotional banner redirects the user to the corresponding promotion or page | Not Run |
+| CH-011 | Verify closing the sign-in pop-up | The pop-up is closed, and the main page content remains accessible | Not Run |
+| CH-012 | Verify the newsletter subscription form | The email field validates the email format, and invalid email addresses are rejected | Not Run |
+| CH-013 | Verify the customer support chat widget | The chat widget opens, and its main elements are available | Not Run |
 
 ## 2. Product Search
 
