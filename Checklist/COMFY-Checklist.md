@@ -31,12 +31,12 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-015 | Search for an existing product by its full name | Relevant products are displayed in the search results | Not Run |
-| CH-016 | Search using a partial product name | Relevant search suggestions or results are displayed | Not Run |
-| CH-017 | Search for a non-existing product | An appropriate no-results message is displayed | Not Run |
-| CH-018 | Submit an empty search field | Search is not performed, or the website displays appropriate behavior | Not Run |
-| CH-019 | Verify search suggestions | Suggestions correspond to the entered search query | Not Run |
-| CH-020 | Search using special characters | The website handles special characters without errors or unexpected behavior | Not Run |
+| CH-015 | Search for an existing product by its full name | Relevant products are displayed in the search results | Passed |
+| CH-016 | Search using a partial product name | Relevant search suggestions or results are displayed | ? |
+| CH-017 | Search for a non-existing product | An appropriate no-results message is displayed | Passed |
+| CH-018 | Submit an empty search field | Search is not performed, or the website displays appropriate behavior | Passed |
+| CH-019 | Verify search suggestions | Suggestions correspond to the entered search query | Passed |
+| CH-020 | Search using special characters | The website handles special characters without errors or unexpected behavior | Passed |
 
 ## 3. Product Catalog, Filters and Sorting
 
