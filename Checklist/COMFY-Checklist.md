@@ -12,20 +12,20 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-001 | Open the homepage | Homepage loads successfully without critical errors | Not Run |
-| CH-002 | Verify website logo | Clicking the logo redirects the user to the homepage | Not Run |
-| CH-003 | Verify header navigation links | Each navigation link redirects the user to the correct page or section | Not Run |
-| CH-004 | Navigate to a product category | The correct product category page opens | Not Run |
+| CH-001 | Open the homepage | Homepage loads successfully without critical errors | Passed |
+| CH-002 | Verify website logo | Clicking the logo redirects the user to the homepage |  Passed |
+| CH-003 | Verify header navigation links | Each navigation link redirects the user to the correct page or section | Passed |
+| CH-004 | Navigate to a product category | The correct product category page opens | Passed |
 | CH-005 | Verify city selection | The list of available cities is displayed, and the selected city is shown correctly | Not Run |
-| CH-006 | Verify language switching | Website content is displayed in the selected language, if language switching is available | Not Run |
-| CH-007 | Verify promotional banners | Clicking a promotional banner redirects the user to the corresponding promotion or page | Not Run |
-| CH-008 | Verify closing the sign-in pop-up | The pop-up closes, and the main page content remains accessible | Not Run |
-| CH-009 | Verify the customer support chat widget | The chat widget opens, and its main elements are available | Not Run |
-| CH-010 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Not Run |
+| CH-006 | Verify language switching | Website content is displayed in the selected language, if language switching is available | Passed |
+| CH-007 | Verify promotional banners | Clicking a promotional banner redirects the user to the corresponding promotion or page | Passed |
+| CH-008 | Verify closing the sign-in pop-up | The pop-up closes, and the main page content remains accessible | Passed |
+| CH-009 | Verify the customer support chat widget | The chat widget opens, and its main elements are available | Passed |
+| CH-010 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Passed |
 | CH-011 | Verify the Back to Top button | Clicking the button scrolls the page back to the top | Not Run |
 | CH-012 | Verify delivery, warranty, payment, and return information links | The corresponding information pages or sections open successfully | Not Run |
-| CH-013 | Verify social media links | Each social media link redirects the user to the corresponding platform | Not Run |
-| CH-014 | Verify App Store and Google Play links | The links redirect the user to the corresponding application pages | Not Run |
+| CH-013 | Verify social media links | Each social media link redirects the user to the corresponding platform |  ? |
+| CH-014 | Verify App Store and Google Play links | The links redirect the user to the corresponding application pages | Passed |
 
 ## 2. Product Search
 
