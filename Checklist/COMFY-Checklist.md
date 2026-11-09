@@ -79,14 +79,14 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-043 | Add a product to the cart | The selected product is successfully added to the shopping cart | Not Run |
-| CH-044 | Add the same product to the cart again | The product quantity or cart contents are updated according to the website behavior | Not Run |
-| CH-045 | Increase product quantity | The product quantity and total price are updated correctly | Not Run |
-| CH-046 | Decrease product quantity | The product quantity and total price are updated correctly | Not Run |
-| CH-047 | Remove a product from the cart | The selected product is removed successfully | Not Run |
-| CH-048 | Open an empty shopping cart | An appropriate empty-cart message or state is displayed | Not Run |
-| CH-049 | Refresh the page after adding a product to the cart | The cart contents remain consistent after refreshing the page | Not Run |
-| CH-050 | Verify the cart total price | The total price is calculated correctly based on product prices and quantities | Not Run |
+| CH-043 | Add a product to the cart | The selected product is successfully added to the shopping cart | Passed |
+| CH-044 | Add the same product to the cart again | The product quantity or cart contents are updated according to the website behavior | Passed |
+| CH-045 | Increase product quantity | The product quantity and total price are updated correctly | Passed |
+| CH-046 | Decrease product quantity | The product quantity and total price are updated correctly | Passed |
+| CH-047 | Remove a product from the cart | The selected product is removed successfully | Passed |
+| CH-048 | Open an empty shopping cart | An appropriate empty-cart message or state is displayed | Passed |
+| CH-049 | Refresh the page after adding a product to the cart | The cart contents remain consistent after refreshing the page | Passed |
+| CH-050 | Verify the cart total price | The total price is calculated correctly based on product prices and quantities | Passed |
 
 ## 7. Checkout Process
 
