@@ -67,13 +67,13 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-036 | Open a product details page | The correct product details page opens | Not Run |
-| CH-037 | Verify product name and price | The product name and current price are displayed correctly | Not Run |
-| CH-038 | Verify product images | Product images load successfully and correspond to the selected product | Not Run |
-| CH-039 | Verify product availability information | Product availability information is displayed correctly | Not Run |
-| CH-040 | Verify product specifications | Product characteristics and specifications are displayed correctly | Not Run |
-| CH-041 | Navigate through the product image gallery | The user can switch between product images successfully | Not Run |
-| CH-042 | Verify product reviews section | Available customer reviews and ratings are displayed correctly | Not Run |
+| CH-036 | Open a product details page | The correct product details page opens | Passed |
+| CH-037 | Verify product name and price | The product name and current price are displayed correctly | Passed |
+| CH-038 | Verify product images | Product images load successfully and correspond to the selected product | Passed |
+| CH-039 | Verify product availability information | Product availability information is displayed correctly | Passed |
+| CH-040 | Verify product specifications | Product characteristics and specifications are displayed correctly | Passed |
+| CH-041 | Navigate through the product image gallery | The user can switch between product images successfully | Passed |
+| CH-042 | Verify product reviews section | Available customer reviews and ratings are displayed correctly | Passed |
 
 ## 6. Shopping Cart
 
