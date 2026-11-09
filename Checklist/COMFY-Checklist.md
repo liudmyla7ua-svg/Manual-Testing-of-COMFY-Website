@@ -112,19 +112,19 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-061 | Navigate through a product carousel using the arrow buttons | The carousel displays the next or previous products correctly | Not Run |
-| CH-062 | Click the "Show More" button in a product section | Additional products are displayed or the relevant product listing page opens | Not Run |
-| CH-063 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | Not Run |
+| CH-061 | Navigate through a product carousel using the arrow buttons | The carousel displays the next or previous products correctly | Passed |
+| CH-062 | Click the "Show More" button in a product section | Additional products are displayed or the relevant product listing page opens | Passed |
+| CH-063 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | ? |
 
 ## 10. UI and Responsive Testing
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-064 | Verify homepage layout at desktop resolution (1440px) | All elements are displayed correctly without unintended overlap | Not Run |
-| CH-065 | Verify homepage layout at tablet resolution (768px) | Content adapts to the viewport without unintended overlap or horizontal overflow | Not Run |
-| CH-066 | Verify homepage layout at mobile resolution (375px) | Main content and interactive elements are displayed correctly without horizontal overflow | Not Run |
-| CH-067 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Not Run |
-| CH-068 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | Not Run |
+| CH-064 | Verify homepage layout at desktop resolution (1440px) | All elements are displayed correctly without unintended overlap | Passed |
+| CH-065 | Verify homepage layout at tablet resolution (768px) | Content adapts to the viewport without unintended overlap or horizontal overflow | Passed |
+| CH-066 | Verify homepage layout at mobile resolution (375px) | Main content and interactive elements are displayed correctly without horizontal overflow | Passed |
+| CH-067 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Passed |
+| CH-068 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | ? |
 
 ---
 
