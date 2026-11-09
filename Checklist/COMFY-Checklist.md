@@ -92,13 +92,13 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-051 | Proceed to checkout with a product in the cart | The checkout page or next checkout step opens successfully | Not Run |
-| CH-052 | Submit the checkout form with empty required fields | Validation messages are displayed for required fields | Not Run |
-| CH-053 | Enter an invalid phone number | The website prevents invalid input or displays an appropriate validation message | Not Run |
-| CH-054 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | Not Run |
-| CH-055 | Verify available delivery options | Available delivery options are displayed correctly | Not Run |
-| CH-056 | Verify available payment options | Available payment options are displayed correctly | Not Run |
-| CH-057 | Verify the order total before placing an order | The order total corresponds to the selected products, quantities, and applicable delivery costs | Not Run |
+| CH-051 | Proceed to checkout with a product in the cart | The checkout page or next checkout step opens successfully | Passed |
+| CH-052 | Submit the checkout form with empty required fields | Validation messages are displayed for required fields | Passed |
+| CH-053 | Enter an invalid phone number | The website prevents invalid input or displays an appropriate validation message | Passed |
+| CH-054 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | ? |
+| CH-055 | Verify available delivery options | Available delivery options are displayed correctly | Passed |
+| CH-056 | Verify available payment options | Available payment options are displayed correctly | Passed |
+| CH-057 | Verify the order total before placing an order | The order total corresponds to the selected products, quantities, and applicable delivery costs | Passed |
 
 ## 8. Newsletter Subscription
 
