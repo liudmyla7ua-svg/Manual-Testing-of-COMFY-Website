@@ -44,13 +44,13 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-023 | Open a product category | Products are displayed correctly on the category page | Not Run |
-| CH-024 | Apply an available product filter | Only products matching the selected filter are displayed | Not Run |
-| CH-025 | Apply multiple product filters | Displayed products match all selected filter criteria | Not Run |
-| CH-026 | Clear selected filters | The selected filters are removed, and the product list is updated | Not Run |
-| CH-027 | Sort products by price ascending | Products are sorted from the lowest to the highest price | Not Run |
-| CH-028 | Sort products by price descending | Products are sorted from the highest to the lowest price | Not Run |
-| CH-029 | Navigate through product listing pages or load more products | The next products are loaded or the next page opens correctly | Not Run |
+| CH-023 | Open a product category | Products are displayed correctly on the category page | Passed |
+| CH-024 | Apply an available product filter | Only products matching the selected filter are displayed | Passed |
+| CH-025 | Apply multiple product filters | Displayed products match all selected filter criteria | Passed |
+| CH-026 | Clear selected filters | The selected filters are removed, and the product list is updated | Passed |
+| CH-027 | Sort products by price ascending | Products are sorted from the lowest to the highest price | Passed |
+| CH-028 | Sort products by price descending | Products are sorted from the highest to the lowest price | Passed |
+| CH-029 | Navigate through product listing pages or load more products | The next products are loaded or the next page opens correctly | Passed |
 
 ## 4. Product Cards on Homepage
 
