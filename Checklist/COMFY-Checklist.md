@@ -104,9 +104,9 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-058 | Submit the newsletter subscription form with a valid email address | The subscription is processed, and an appropriate confirmation message is displayed | Not Run |
-| CH-059 | Submit the newsletter subscription form with an invalid email address | The website rejects the invalid email address and displays a validation message | Not Run |
-| CH-060 | Submit the newsletter subscription form with an empty email field | The website prevents submission or displays an appropriate validation message | Not Run |
+| CH-058 | Submit the newsletter subscription form with a valid email address | The subscription is processed, and an appropriate confirmation message is displayed | Passed |
+| CH-059 | Submit the newsletter subscription form with an invalid email address | The website rejects the invalid email address and displays a validation message | Passed |
+| CH-060 | Submit the newsletter subscription form with an empty email field | The website prevents submission or displays an appropriate validation message | Passed |
 
 ## 9. Promotional Sections and Product Carousels
 
