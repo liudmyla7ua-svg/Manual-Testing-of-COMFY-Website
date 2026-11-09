@@ -56,12 +56,12 @@
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-030 | Verify product card information | Product cards display the product name, image, and current price | Not Run |
-| CH-031 | Verify discounted product information | Discounted products display the original price, discount amount, and current price correctly | Not Run |
-| CH-032 | Verify product ratings and review counts | Rating and review information is displayed correctly when available | Not Run |
-| CH-033 | Click a product card | The corresponding product details page opens | Not Run |
-| CH-034 | Add a product to Favorites from its card | The product is added to Favorites, or the user is prompted to log in | Not Run |
-| CH-035 | Add a product to Compare from its card | The product is added to the comparison list | Not Run |
+| CH-030 | Verify product card information | Product cards display the product name, image, and current price | Passed |
+| CH-031 | Verify discounted product information | Discounted products display the original price, discount amount, and current price correctly | Passed |
+| CH-032 | Verify product ratings and review counts | Rating and review information is displayed correctly when available | Passed |
+| CH-033 | Click a product card | The corresponding product details page opens | Passed |
+| CH-034 | Add a product to Favorites from its card | The product is added to Favorites, or the user is prompted to log in | Passed |
+| CH-035 | Add a product to Compare from its card | The product is added to the comparison list | Passed |
 
 ## 5. Product Details Page
 
