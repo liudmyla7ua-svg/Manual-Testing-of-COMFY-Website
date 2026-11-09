@@ -27,18 +27,4 @@ When selecting Kyiv, the city name is clearly visible on the map.
 ### Expected Result
 The map should provide a clear visual indication of the selected city. The map display should be consistent across different cities.
 
-### Attachments
-- Mykolaiv map screenshot
-- Ivano-Frankivsk map screenshot
-- Kyiv map screenshot (comparison)
 
-- ## Attachments
-
-### 1. Mykolaiv — city name is not displayed
-![Mykolaiv map](Screenshots/01-mykolaiv-map.png)
-
-### 2. Ivano-Frankivsk — city name is not displayed
-![Ivano-Frankivsk map](Screenshots/02-ivano-frankivsk-map.png)
-
-### 3. Kyiv — city name is displayed correctly
-![Kyiv map](Screenshots/03-kyiv-map-reference.png)
