@@ -22,8 +22,8 @@
 | CH-008 | Verify closing the sign-in pop-up | The pop-up closes, and the main page content remains accessible | Passed |
 | CH-009 | Verify the customer support chat widget | The chat widget opens, and its main elements are available | Passed |
 | CH-010 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Passed |
-| CH-011 | Verify the Back to Top button | Clicking the button scrolls the page back to the top | Not Run |
-| CH-012 | Verify delivery, warranty, payment, and return information links | The corresponding information pages or sections open successfully | Not Run |
+| CH-011 | Verify the Back to Top button | Clicking the button scrolls the page back to the top | Passed |
+| CH-012 | Verify delivery, warranty, payment, and return information links | The corresponding information pages or sections open successfully | Passed |
 | CH-013 | Verify social media links | Each social media link redirects the user to the corresponding platform |  ? |
 | CH-014 | Verify App Store and Google Play links | The links redirect the user to the corresponding application pages | Passed |
 
