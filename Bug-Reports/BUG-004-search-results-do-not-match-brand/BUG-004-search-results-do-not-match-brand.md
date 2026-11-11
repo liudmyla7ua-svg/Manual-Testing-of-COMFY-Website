@@ -35,8 +35,8 @@ Search results should primarily display products matching the specified product 
 **Priority:** Medium (suggested)
 
 **Attachments:**
-- `BUG-003-search-lenovo-thinkpad.png`
-- `BUG-003-search-samsung-tv.png`
+- `BUG-004-search-lenovo-thinkpad.png`
+- `BUG-004-search-samsung-tv.png`
 
 **Additional Notes:**
 The search functionality appears to return products that match the general product category but do not necessarily match the specified brand or product series. Further verification against the search requirements is recommended.
