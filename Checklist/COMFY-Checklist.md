@@ -14,11 +14,11 @@
 |---|---|---|---|
 | CH-001 | Open the homepage | Homepage loads successfully without critical errors | Passed |
 | CH-002 | Verify website logo | Clicking the logo redirects the user to the homepage | Passed |
-| CH-003 | Verify the Catalog button | Clicking on the Catalog button opens the page with categories list | Passed |
-| CH-004 | Verify the content of the Catalog page by clicking on the Catalog button | The page is displayed correctly | ? |
-| CH-005 | Verify header navigation links | Each navigation link redirects the user to the correct page or section | Passed |
-| CH-006 | Navigate to a product category | The correct product category page opens | Passed |
-| CH-007 | Verify city selection | The list of available cities is displayed, and the selected city is shown correctly | Not Run |
+| CH-003 | Verify city selection | The list of available cities is displayed, and the selected city is shown correctly | Failed |
+| CH-004 | Verify the Catalog button | Clicking on the Catalog button opens the page with categories list | Passed |
+| CH-005 | Verify Catalog menu display | 	The Catalog menu is displayed correctly. All categories and subcategories are accessible, with no content clipping or overlapping | Failed |
+| CH-006 | Verify header navigation links | Each navigation link redirects the user to the correct page or section | Passed |
+| CH-007 | Navigate to a product category | The correct product category page opens | Passed |
 | CH-008 | Verify language switching | Website content is displayed in the selected language, if language switching is available | Passed |
 | CH-009 | Verify promotional banners | Clicking a promotional banner redirects the user to the corresponding promotion or page | Passed |
 | CH-010 | Verify closing the sign-in pop-up | The pop-up closes, and the main page content remains accessible | Passed |
