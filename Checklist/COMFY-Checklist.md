@@ -26,7 +26,7 @@
 | CH-012 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Passed |
 | CH-013 | Verify the Back to Top button | Clicking the button scrolls the page back to the top | Passed |
 | CH-014 | Verify delivery, warranty, payment, and return information links | The corresponding information pages or sections open successfully | Passed |
-| CH-015 | Verify social media links | Each social media link redirects the user to the corresponding platform |  ? |
+| CH-015 | Verify social media links | Each social media link redirects the user to the corresponding platform | Failed |
 | CH-016 | Verify App Store and Google Play links | The links redirect the user to the corresponding application pages | Passed |
 
 ## 2. Product Search
@@ -34,97 +34,98 @@
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
 | CH-017 | Search for an existing product by its full name | Relevant products are displayed in the search results | Passed |
-| CH-018 | Search using a partial product name | Relevant search suggestions or results are displayed | ? |
-| CH-019 | Search for a non-existing product | An appropriate no-results message is displayed | Passed |
-| CH-020 | Submit an empty search field | Search is not performed, or the website displays appropriate behavior | Passed |
-| CH-021 | Verify search suggestions | Suggestions correspond to the entered search query | Passed |
-| CH-022 | Search using special characters | The website handles special characters without errors or unexpected behavior | Passed |
+| CH-018 | Search using a partial product name | Relevant search suggestions or results are displayed | Passed |
+| CH-019 | Search by product brand and category | Search results display products matching the specified category and brand | Failed |
+| CH-020 | Search for a non-existing product | An appropriate no-results message is displayed | Passed |
+| CH-021 | Submit an empty search field | Search is not performed, or the website displays appropriate behavior | Passed |
+| CH-022 | Verify search suggestions | Suggestions correspond to the entered search query | Passed |
+| CH-023 | Search using special characters | The website handles special characters without errors or unexpected behavior | Passed |
 
 ## 3. Product Catalog, Filters and Sorting
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-023 | Open a product category | Products are displayed correctly on the category page | Passed |
-| CH-024 | Apply an available product filter | Only products matching the selected filter are displayed | Passed |
-| CH-025 | Apply multiple product filters | Displayed products match all selected filter criteria | Passed |
-| CH-026 | Clear selected filters | The selected filters are removed, and the product list is updated | Passed |
-| CH-027 | Sort products by price ascending | Products are sorted from the lowest to the highest price | Passed |
-| CH-028 | Sort products by price descending | Products are sorted from the highest to the lowest price | Passed |
-| CH-029 | Navigate through product listing pages or load more products | The next products are loaded or the next page opens correctly | Passed |
+| CH-024 | Open a product category | Products are displayed correctly on the category page | Passed |
+| CH-025 | Apply an available product filter | Only products matching the selected filter are displayed | Passed |
+| CH-026 | Apply multiple product filters | Displayed products match all selected filter criteria | Passed |
+| CH-027 | Clear selected filters | The selected filters are removed, and the product list is updated | Passed |
+| CH-028 | Sort products by price ascending | Products are sorted from the lowest to the highest price | Passed |
+| CH-029 | Sort products by price descending | Products are sorted from the highest to the lowest price | Passed |
+| CH-030 | Navigate through product listing pages or load more products | The next products are loaded or the next page opens correctly | Passed |
 
 ## 4. Product Cards on Homepage
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-030 | Verify product card information | Product cards display the product name, image, and current price | Passed |
-| CH-031 | Verify discounted product information | Discounted products display the original price, discount amount, and current price correctly | Passed |
-| CH-032 | Verify product ratings and review counts | Rating and review information is displayed correctly when available | Passed |
-| CH-033 | Click a product card | The corresponding product details page opens | Passed |
-| CH-034 | Add a product to Favorites from its card | The product is added to Favorites, or the user is prompted to log in | Passed |
-| CH-035 | Add a product to Compare from its card | The product is added to the comparison list | Passed |
+| CH-031 | Verify product card information | Product cards display the product name, image, and current price | Passed |
+| CH-032 | Verify discounted product information | Discounted products display the original price, discount amount, and current price correctly | Passed |
+| CH-033 | Verify product ratings and review counts | Rating and review information is displayed correctly when available | Passed |
+| CH-034 | Click a product card | The corresponding product details page opens | Passed |
+| CH-035 | Add a product to Favorites from its card | The product is added to Favorites, or the user is prompted to log in | Passed |
+| CH-036 | Add a product to Compare from its card | The product is added to the comparison list | Passed |
 
 ## 5. Product Details Page
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-036 | Open a product details page | The correct product details page opens | Passed |
-| CH-037 | Verify product name and price | The product name and current price are displayed correctly | Passed |
-| CH-038 | Verify product images | Product images load successfully and correspond to the selected product | Passed |
-| CH-039 | Verify product availability information | Product availability information is displayed correctly | Passed |
-| CH-040 | Verify product specifications | Product characteristics and specifications are displayed correctly | Passed |
-| CH-041 | Navigate through the product image gallery | The user can switch between product images successfully | Passed |
-| CH-042 | Verify product reviews section | Available customer reviews and ratings are displayed correctly | Passed |
+| CH-037 | Open a product details page | The correct product details page opens | Passed |
+| CH-038 | Verify product name and price | The product name and current price are displayed correctly | Passed |
+| CH-039 | Verify product images | Product images load successfully and correspond to the selected product | Passed |
+| CH-040 | Verify product availability information | Product availability information is displayed correctly | Passed |
+| CH-041 | Verify product specifications | Product characteristics and specifications are displayed correctly | Passed |
+| CH-042 | Navigate through the product image gallery | The user can switch between product images successfully | Passed |
+| CH-043 | Verify product reviews section | Available customer reviews and ratings are displayed correctly | Passed |
 
 ## 6. Shopping Cart
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-043 | Add a product to the cart | The selected product is successfully added to the shopping cart | Passed |
-| CH-044 | Add the same product to the cart again | The product quantity or cart contents are updated according to the website behavior | Passed |
-| CH-045 | Increase product quantity | The product quantity and total price are updated correctly | Passed |
-| CH-046 | Decrease product quantity | The product quantity and total price are updated correctly | Passed |
-| CH-047 | Remove a product from the cart | The selected product is removed successfully | Passed |
-| CH-048 | Open an empty shopping cart | An appropriate empty-cart message or state is displayed | Passed |
-| CH-049 | Refresh the page after adding a product to the cart | The cart contents remain consistent after refreshing the page | Passed |
-| CH-050 | Verify the cart total price | The total price is calculated correctly based on product prices and quantities | Passed |
+| CH-044 | Add a product to the cart | The selected product is successfully added to the shopping cart | Passed |
+| CH-045 | Add the same product to the cart again | The product quantity or cart contents are updated according to the website behavior | Passed |
+| CH-046 | Increase product quantity | The product quantity and total price are updated correctly | Passed |
+| CH-047 | Decrease product quantity | The product quantity and total price are updated correctly | Passed |
+| CH-048 | Remove a product from the cart | The selected product is removed successfully | Passed |
+| CH-049 | Open an empty shopping cart | An appropriate empty-cart message or state is displayed | Passed |
+| CH-050 | Refresh the page after adding a product to the cart | The cart contents remain consistent after refreshing the page | Passed |
+| CH-051 | Verify the cart total price | The total price is calculated correctly based on product prices and quantities | Passed |
 
 ## 7. Checkout Process
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-051 | Proceed to checkout with a product in the cart | The checkout page or next checkout step opens successfully | Passed |
-| CH-052 | Submit the checkout form with empty required fields | Validation messages are displayed for required fields | Passed |
-| CH-053 | Enter an invalid phone number | The website prevents invalid input or displays an appropriate validation message | Passed |
-| CH-054 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | ? |
-| CH-055 | Verify available delivery options | Available delivery options are displayed correctly | Passed |
-| CH-056 | Verify available payment options | Available payment options are displayed correctly | Passed |
-| CH-057 | Verify the order total before placing an order | The order total corresponds to the selected products, quantities, and applicable delivery costs | Passed |
+| CH-052 | Proceed to checkout with a product in the cart | The checkout page or next checkout step opens successfully | Passed |
+| CH-053 | Submit the checkout form with empty required fields | Validation messages are displayed for required fields | Passed |
+| CH-054 | Enter an invalid phone number | The website prevents invalid input or displays an appropriate validation message | Passed |
+| CH-055 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | ? |
+| CH-056 | Verify available delivery options | Available delivery options are displayed correctly | Passed |
+| CH-057 | Verify available payment options | Available payment options are displayed correctly | Passed |
+| CH-058 | Verify the order total before placing an order | The order total corresponds to the selected products, quantities, and applicable delivery costs | Passed |
 
 ## 8. Newsletter Subscription
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-058 | Submit the newsletter subscription form with a valid email address | The subscription is processed, and an appropriate confirmation message is displayed | Passed |
-| CH-059 | Submit the newsletter subscription form with an invalid email address | The website rejects the invalid email address and displays a validation message | Passed |
-| CH-060 | Submit the newsletter subscription form with an empty email field | The website prevents submission or displays an appropriate validation message | Passed |
+| CH-059 | Submit the newsletter subscription form with a valid email address | The subscription is processed, and an appropriate confirmation message is displayed | Passed |
+| CH-060 | Submit the newsletter subscription form with an invalid email address | The website rejects the invalid email address and displays a validation message | Passed |
+| CH-061 | Submit the newsletter subscription form with an empty email field | The website prevents submission or displays an appropriate validation message | Passed |
 
 ## 9. Promotional Sections and Product Carousels
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-061 | Navigate through a product carousel using the arrow buttons | The carousel displays the next or previous products correctly | Passed |
-| CH-062 | Click the "Show More" button in a product section | Additional products are displayed or the relevant product listing page opens | Passed |
-| CH-063 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | ? |
+| CH-062 | Navigate through a product carousel using the arrow buttons | The carousel displays the next or previous products correctly | Passed |
+| CH-063 | Click the "Show More" button in a product section | Additional products are displayed or the relevant product listing page opens | Passed |
+| CH-064 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | ? |
 
 ## 10. UI and Responsive Testing
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| CH-064 | Verify homepage layout at desktop resolution (1440px) | All elements are displayed correctly without unintended overlap | Passed |
-| CH-065 | Verify homepage layout at tablet resolution (768px) | Content adapts to the viewport without unintended overlap or horizontal overflow | Passed |
-| CH-066 | Verify homepage layout at mobile resolution (375px) | Main content and interactive elements are displayed correctly without horizontal overflow | Passed |
-| CH-067 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Passed |
-| CH-068 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | ? |
+| CH-065 | Verify homepage layout at desktop resolution (1440px) | All elements are displayed correctly without unintended overlap | Passed |
+| CH-066 | Verify homepage layout at tablet resolution (768px) | Content adapts to the viewport without unintended overlap or horizontal overflow | Passed |
+| CH-067 | Verify homepage layout at mobile resolution (375px) | Main content and interactive elements are displayed correctly without horizontal overflow | Passed |
+| CH-068 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Passed |
+| CH-069 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | ? |
 
 ---
 
