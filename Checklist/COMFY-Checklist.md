@@ -19,23 +19,23 @@
 | CH-004 | Verify the Catalog button | Clicking the Catalog button opens the categories menu | Passed |
 | CH-005 | Verify Catalog menu display | All categories and subcategories are accessible, with no content clipping or overlapping | Failed |
 | CH-006 | Verify header navigation links | Each header navigation link redirects the user to the correct page or section | Passed |
-| CH-007 | Verify the Sign In button | Clicking the Sign In button opens the authorization pop-up | Not Run |
-| CH-008 | Verify the Compare button | Clicking the Compare button opens the comparison page or displays the appropriate empty state | Not Run |
-| CH-009 | Verify the Favorites button | Clicking the Favorites button opens the favorites page or prompts the user to log in | Not Run |
-| CH-010 | Verify the Notifications button | Clicking the Notifications button opens the notifications section or displays the appropriate state | Not Run |
-| CH-011 | Verify the Shopping Cart button | Clicking the Shopping Cart button opens the cart page or displays the empty-cart state | Not Run |
-| CH-012 | Verify header layout on Desktop | Header elements are correctly aligned and displayed without overlapping | Not Run |
-| CH-013 | Verify header layout on Tablet | Header elements adapt correctly to tablet screen widths | Not Run |
-| CH-014 | Verify header layout on Mobile | Header elements are displayed correctly and remain accessible on mobile screens | Not Run |
-| CH-015 | Verify header after page refresh | Header elements remain correctly displayed after refreshing the page | Not Run |
+| CH-007 | Verify the Sign In button | Clicking the Sign In button opens the authorization pop-up | Passed |
+| CH-008 | Verify the Compare button | Clicking the Compare button opens the comparison page or displays the appropriate empty state | Passed |
+| CH-009 | Verify the Favorites button | Clicking the Favorites button opens the favorites page or prompts the user to log in | Passed |
+| CH-010 | Verify the Notifications button | Clicking the Notifications button opens the notifications section or displays the appropriate state | Passed |
+| CH-011 | Verify the Shopping Cart button | Clicking the Shopping Cart button opens the cart page or displays the empty-cart state | Passed |
+| CH-012 | Verify header layout on Desktop | Header elements are correctly aligned and displayed without overlapping | Passed |
+| CH-013 | Verify header layout on Tablet | Header elements adapt correctly to tablet screen widths | Passed |
+| CH-014 | Verify header layout on Mobile | Header elements are displayed correctly and remain accessible on mobile screens | Passed |
+| CH-015 | Verify header after page refresh | Header elements remain correctly displayed after refreshing the page | Passed |
 
 ## 2. Registration Testing
 
 | **ID** | **Test Scenario** | **Expected Result** | **Status** |
 |---|---|---|---|
-| CH-016 | Verify access to the registration form | The registration form opens successfully, if registration is available | Not Run |
-| CH-017 | Submit the registration form with empty required fields | The website prevents submission and displays appropriate validation messages | Not Run |
-| CH-018 | Enter an invalid phone number during registration | The website rejects the invalid phone number and displays a validation message | Not Run |
+| CH-016 | Verify access to the registration form | The registration form opens successfully, if registration is available | Passed |
+| CH-017 | Submit the registration form with empty required fields | The website prevents submission and displays appropriate validation messages | Passed |
+| CH-018 | Enter an invalid phone number during registration | The website rejects the invalid phone number and displays a validation message | Passed |
 | CH-019 | Enter a phone number with an incorrect country code | The website displays an appropriate validation message | Not Run |
 | CH-020 | Register using a valid phone number | The website accepts the phone number and proceeds to the next registration step | Not Run |
 | CH-021 | Verify registration using an already registered phone number | The website displays an appropriate message or handles the existing account according to the requirements | Not Run |
