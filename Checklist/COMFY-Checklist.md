@@ -36,30 +36,31 @@
 | CH-016 | Verify access to the registration form | The registration form opens successfully, if registration is available | Passed |
 | CH-017 | Submit the registration form with empty required fields | The website prevents submission and displays appropriate validation messages | Passed |
 | CH-018 | Enter an invalid phone number during registration | The website rejects the invalid phone number and displays a validation message | Passed |
-| CH-019 | Enter a phone number with an incorrect country code | The website displays an appropriate validation message | Not Run |
-| CH-020 | Register using a valid phone number | The website accepts the phone number and proceeds to the next registration step | Not Run |
-| CH-021 | Verify registration using an already registered phone number | The website displays an appropriate message or handles the existing account according to the requirements | Not Run |
-| CH-022 | Enter special characters in the name field | The website prevents submission and displays appropriate validation messages  | Not Run |
-| CH-023 | Enter the name in Latin | The website prevents submission and displays appropriate validation messages | Not Run |
-| CH-024 | Enter numbers in the name field | The website prevents submission and displays appropriate validation messages  | Not Run |
-| CH-025 | Enter one Cyrillic letter in the name field | The website prevents submission and displays appropriate validation messages | Not Run |
-| CH-026 | Enter the valid name in the name field | Registration is successful | Not Run |
-| CH-027 | Verify registration form validation messages | Validation messages are clear, relevant, and displayed near the corresponding fields | Not Run |
+| CH-019 | Enter a phone number with an incorrect country code | The website displays an appropriate validation message | Passed |
+| CH-020 | Register using a valid phone number and select the button To receive the message | The website accepts the phone number and a message with an acces code comes the phone| Passed |
+| CH-021 | Register using a valid phone number and select the button To receive a call | The website accepts the phone number and the user receives a phone call | Passed |
+| CH-022 | Verify registration using an already registered phone number | The website displays an appropriate message or handles the existing account according to the requirements | Passed |
+| CH-023 | Enter special characters in the name field | The website prevents submission and displays appropriate validation messages  | Passed |
+| CH-024 | Enter the name in Latin | The website prevents submission and displays appropriate validation messages | Passed |
+| CH-025 | Enter numbers in the name field | The website prevents submission and displays appropriate validation messages  | Passed |
+| CH-026 | Enter one Cyrillic letter in the name field | The website prevents submission and displays appropriate validation messages | Passed |
+| CH-027 | Enter the valid name in the name field | Registration is successful | Passed |
+| CH-028 | Verify registration form validation messages | Validation messages are clear, relevant, and displayed near the corresponding fields | Passed |
 
 ## 3. Authorization Testing
 
 | **ID** | **Test Scenario** | **Expected Result** | **Status** |
 |---|---|---|---|
-| CH-023 | Open the authorization pop-up | The authorization pop-up opens successfully | Not Run |
+| CH-023 | Open the authorization pop-up | The authorization pop-up opens successfully | Passed |
 | CH-024 | Close the authorization pop-up | The pop-up closes, and the homepage remains accessible | Passed |
-| CH-025 | Submit the authorization form with an empty phone number | The website prevents submission and displays an appropriate validation message | Not Run |
-| CH-026 | Enter an invalid phone number | The website rejects the invalid phone number and displays a validation message | Not Run |
-| CH-027 | Enter a valid phone number | The website accepts the phone number and enables the next authorization step | Not Run |
-| CH-028 | Enter an incorrect verification code | The website rejects the incorrect code and displays an appropriate error message | Not Run |
-| CH-029 | Complete authorization with a valid verification code | The user is successfully authorized and the account information becomes available | Not Run |
-| CH-030 | Verify authorization persistence after page refresh | The user remains authorized after refreshing the page | Not Run |
-| CH-031 | Verify authorization through Google or Facebook | The user can proceed with social authorization, if this functionality is available | Not Run |
-| CH-032 | Verify logout | The user is successfully logged out, and access to account-specific features requires authorization | Not Run |
+| CH-025 | Submit the authorization form with an empty phone number | The website prevents submission and displays an appropriate validation message | Passed |
+| CH-026 | Enter an invalid phone number | The website rejects the invalid phone number and displays a validation message | Passed |
+| CH-027 | Enter a valid phone number | The website accepts the phone number and enables the next authorization step | Passed |
+| CH-028 | Enter an incorrect verification code | The website rejects the incorrect code and displays an appropriate error message | Passed |
+| CH-029 | Complete authorization with a valid verification code | The user is successfully authorized and the account information becomes available | Passed |
+| CH-030 | Verify authorization persistence after page refresh | The user remains authorized after refreshing the page | Passed |
+| CH-031 | Verify authorization through Google or Facebook | The user can proceed with social authorization, if this functionality is available | Passed |
+| CH-032 | Verify logout | The user is successfully logged out, and access to account-specific features requires authorization | Passed |
 
 ## 4. Homepage and Navigation
 
