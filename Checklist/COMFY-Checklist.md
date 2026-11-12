@@ -39,7 +39,12 @@
 | CH-019 | Enter a phone number with an incorrect country code | The website displays an appropriate validation message | Not Run |
 | CH-020 | Register using a valid phone number | The website accepts the phone number and proceeds to the next registration step | Not Run |
 | CH-021 | Verify registration using an already registered phone number | The website displays an appropriate message or handles the existing account according to the requirements | Not Run |
-| CH-022 | Verify registration form validation messages | Validation messages are clear, relevant, and displayed near the corresponding fields | Not Run |
+| CH-022 | Enter special characters in the name field | The website prevents submission and displays appropriate validation messages  | Not Run |
+| CH-023 | Enter the name in Latin | The website prevents submission and displays appropriate validation messages | Not Run |
+| CH-024 | Enter numbers in the name field | The website prevents submission and displays appropriate validation messages  | Not Run |
+| CH-025 | Enter one Cyrillic letter in the name field | The website prevents submission and displays appropriate validation messages | Not Run |
+| CH-026 | Enter the valid name in the name field | Registration is successful | Not Run |
+| CH-027 | Verify registration form validation messages | Validation messages are clear, relevant, and displayed near the corresponding fields | Not Run |
 
 ## 3. Authorization Testing
 
