@@ -200,6 +200,34 @@
 | CH-099 | Verify the content of the Product catalog page | The content is displayed correctly without visual defects | Not Run |
 | CH-098 | Verify the COMFY helps link | Clicking the COMFY helps link opens the corresponding page | Passed |
 | CH-099 | Verify the content of the COMFY helps page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Bonus program link | Clicking the Bonus program link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Bonus program page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Gift cards link | Clicking the Gift cards link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Gift cards page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Services, subscriptions and software link | Clicking the Services, subscriptions and software link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Services, subscriptions and software page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Credit and payment in installments link | Clicking the Credit and payment in installments link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Credit and payment in installments page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Trade in link | Clicking the Trade in link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Trade in page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Service contracts link | Clicking the Service contracts link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Service contracts page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Non-cash account link | Clicking the Non-cash account link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Non-cash accounts page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Payment link | Clicking the Payment link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Payment page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Customer Assistance Center link | Clicking the Customer Assistance Center link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Customer Assistance Center page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Find an order link | Clicking the Find an order link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Find an order page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Terms of delivery link | Clicking the Terms of delivery link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Terms of delivery page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Exchange and return of item link | Clicking the Exchange and return of item link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Exchange and return of item page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Warranty link | Clicking the Warranty link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Warranty page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Terms of use of the site link | Clicking the Terms of use of the site link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Terms of use of the site page | The content is displayed correctly without visual defects | Not Run |
 | CH-103 | Verify customer support phone numbers | Phone numbers are visible and clickable | Not Run |
 | CH-104 | Verify customer support email | Clicking the email address opens the default email application with the correct recipient | Not Run |
 | CH-105 | Verify social media links | Each social media icon redirects to the corresponding platform | Not Run |
