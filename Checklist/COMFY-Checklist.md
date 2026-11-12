@@ -180,12 +180,27 @@
 |---|---|---|---|
 | CH-095 | Verify footer visibility | The footer is displayed correctly at the bottom of the page | Not Run |
 | CH-096 | Verify footer section headings | All footer section headings are visible and correctly displayed | Not Run |
-| CH-097 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Passed |
+| CH-097 | Verify About the company link | Clicking About the company link redirects the user to the corresponding page | Passed |
+| CH-097 | Verify the content of the page About the company | The content is displayed correctly without visual defects | Passed |
+| CH-097 | Verify Shops link | Clicking Shops link redirects the user to the corresponding page | Passed |
+| CH-097 | Verify the content of the Shops page | The content is displayed correctly without visual defects | Passed |
+| CH-097 | Verify Contacts link | Clicking Contacts link redirects the user to the corresponding page | Passed |
+| CH-097 | Verify the content of the Contacts page | The content is displayed correctly without visual defects | Passed |
 | CH-098 | Verify the Press Center link | Clicking the "Прес-центр" link opens the Press Center page | Passed |
-| CH-099 | Verify the Contact Us link | Clicking the contact link opens the corresponding contact information page | Not Run |
-| CH-100 | Verify the Delivery link | Clicking the delivery link opens the delivery information page | Not Run |
-| CH-101 | Verify the Returns link | Clicking the returns link opens the returns policy page | Not Run |
-| CH-102 | Verify the Warranty link | Clicking the warranty link opens the warranty information page | Not Run |
+| CH-099 | Verify the content of the Press Center page | The content is displayed correctly without visual defects | Failed |
+| CH-100 | Verify the Job at COMFY link | Clicking the Job at COMFY link opens the corresponding page | Not Run |
+| CH-101 | Verify the content of the Job at COMFY page | The content is displayed correctly without visual defects | Not Run |
+| CH-102 | Verify the Safety and precautions link | Clicking the Safety and precautions link opens the Safety and precaution page | Not Run |
+| CH-099 | Verify the content of the Safety and precautions page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Tender link | Clicking the Tender link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Tender page | The content is displayed correctly without visual defects | Not Run |
+| CH-100 | Verify the For partners link | Clicking the For partners link opens the corresponding page | Not Run |
+| CH-099 | Verify the content of the For partners page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the Product catalog link | Clicking the Product catalog link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the Product catalog page | The content is displayed correctly without visual defects | Not Run |
+| CH-098 | Verify the COMFY helps link | Clicking the COMFY helps link opens the corresponding page | Passed |
+| CH-099 | Verify the content of the COMFY helps page | The content is displayed correctly without visual defects | Not Run |
+
 | CH-103 | Verify customer support phone numbers | Phone numbers are visible and clickable | Not Run |
 | CH-104 | Verify customer support email | Clicking the email address opens the default email application with the correct recipient | Not Run |
 | CH-105 | Verify social media links | Each social media icon redirects to the corresponding platform | Not Run |
