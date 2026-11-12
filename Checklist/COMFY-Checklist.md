@@ -4,6 +4,7 @@
 **Website:** [https://comfy.ua/](https://comfy.ua/)  
 **Testing Type:** Manual Testing  
 **Environment:** Google Chrome / Windows 11 Pro 
+
 **Test Status:** In Progress
 
 ---
