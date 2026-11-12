@@ -200,7 +200,6 @@
 | CH-099 | Verify the content of the Product catalog page | The content is displayed correctly without visual defects | Not Run |
 | CH-098 | Verify the COMFY helps link | Clicking the COMFY helps link opens the corresponding page | Passed |
 | CH-099 | Verify the content of the COMFY helps page | The content is displayed correctly without visual defects | Not Run |
-
 | CH-103 | Verify customer support phone numbers | Phone numbers are visible and clickable | Not Run |
 | CH-104 | Verify customer support email | Clicking the email address opens the default email application with the correct recipient | Not Run |
 | CH-105 | Verify social media links | Each social media icon redirects to the corresponding platform | Not Run |
