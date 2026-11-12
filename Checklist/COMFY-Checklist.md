@@ -128,6 +128,32 @@
 | CH-069 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Passed |
 | CH-070 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | ? |
 
+
+## 11. Footer.
+
+| ID | Test Scenario | Expected Result | Status |
+|---|---|---|---|
+| CH-071 | Verify footer visibility | The footer is displayed correctly at the bottom of the page | Not Run |
+| CH-072 | Verify footer section headings | All footer section headings are visible and correctly displayed | Not Run |
+| CH-073 | Verify footer navigation links | Each footer link redirects the user to the corresponding page | Not Run |
+| CH-074 | Verify the Press Center link | Clicking the "Прес-центр" link opens the Press Center page | Not Run |
+| CH-075 | Verify the Contact Us link | Clicking the contact link opens the corresponding contact information page | Not Run |
+| CH-076 | Verify the Delivery link | Clicking the delivery link opens the delivery information page | Not Run |
+| CH-077 | Verify the Returns link | Clicking the returns link opens the returns policy page | Not Run |
+| CH-078 | Verify the Warranty link | Clicking the warranty link opens the warranty information pagee | Not Run |
+| CH-079 | Verify customer support phone numbers | Phone numbers are visible and clickable | Not Run |
+| CH-080 | Verify customer support email | Clicking the email address opens the default email application with the correct recipien | Not Run |
+| CH-081 | Verify social media links | Each social media icon redirects to the corresponding platform | Not Run |
+| CH-082 | Verify footer newsletter subscription form | The email field and subscription button are displayed and functional | Not Run |
+| CH-083 | Verify newsletter form validation | nvalid email addresses are rejected and appropriate validation messages are displayed | Not Run |
+| CH-084 | Verify footer layout on Desktop | Footer elements are correctly aligned and do not overlap | Not Run |
+| CH-085 | Verify footer layout on Tablet | Footer elements are displayed correctly at tablet screen widths | Not Run |
+| CH-086 | Verify footer layout on Mobile | Footer elements are displayed correctly at mobile screen widths | Not Run |
+| CH-087 | Verify footer text alignment and spacing | Text elements have appropriate margins, padding, and spacing | Not Run |
+| CH-088 | Verify footer links hover state | Footer links display the correct hover effect when the cursor is moved over them | Not Run |
+| CH-089 | Verify footer content after page refresh | Footer content remains correctly displayed after refreshing the page | Not Run |
+
+
 ---
 
 ## Test Execution Notes
