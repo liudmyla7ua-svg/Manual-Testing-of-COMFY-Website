@@ -97,6 +97,36 @@
 | CH-105 | Verify the logout option in the account page | Clicking "Вийти" logs the user out and redirects to an appropriate page | Not Run |
 | CH-106 | Verify access to the account after logout | After logging out, the user cannot access protected account information without signing in again | Not Run |
 | CH-107 | Verify account session after page refresh | After refreshing the page, the authenticated user remains logged in while the session is valid | Not Run |
+| CH-108 | Verify the Cards tab in the Wallet section | Clicking the "Картки" tab displays the user's saved cards | Not Run |
+| CH-109 | Verify the Coupons tab in the Wallet section |	Clicking the "Купони" tab displays the user's available coupons |	Not Run |
+| CH-110 | Verify the Gift Cards tab in the Wallet section | Clicking the "Подарункові картки" tab displays the user's gift cards | Not Run |
+| CH-111 | Verify the empty state in the Wallet section	| An appropriate empty-state message is displayed when the user has no saved cards or coupons | Not Run |
+| CH-112 | Verify switching between Wallet tabs	| The user can switch between Cards, Coupons, and Gift Cards tabs without errors | Not Run |
+| CH-113 | Verify the Favorites tab	| Clicking the "Обрані товари" tab displays the user's favorite products | Not Run |
+| CH-114 | Verify the Expected Products tab	| Clicking the "Очікувані товари" tab displays the user's expected products | Not Run |
+| CH-115 | Verify the empty state in the Favorites tab | An appropriate empty-state message is displayed when the user has no favorite products | Not Run |
+| CH-116 | Verify the empty state in the Expected Products tab | An appropriate empty-state message is displayed when the user has no expected products | Not Run |
+| CH-117 | Verify creating a new favorites list	| Clicking "Створити новий список" opens an interface for creating a new list | Not Run |
+| CH-118 | Verify the bonus balance information	| The user's current bonus balance and bonus categories are displayed correctly | Not Run |
+| CH-119 | Verify the empty state in Bonus History | An appropriate message is displayed when the user has no bonus transactions | Not Run |
+| CH-120 | Verify the bonus history information message |	The message explaining when bonus history becomes available is displayed correctly | Not Run |
+| CH-121 | Verify the All filter in Communication History |	Clicking "Всі" displays all available communication records| Not Run |
+| CH-122 | Verify the Orders filter in Communication History | Clicking "Замовлення" displays only order-related communications | Not Run |
+| CH-123 | Verify the Personal filter in Communication History | Clicking "Персональні" displays only personal communications | Not Run |
+| CH-124 | Verify the Offers filter in Communication History | Clicking "Пропозиції" displays only promotional communications | Not Run |
+| CH-125 | Verify switching between Communication History filters |	The user can switch between all filters without page errors or incorrect content | Not Run |
+| CH-126 | Verify the empty state in Communication History | An appropriate empty-state message is displayed when there are no communications | Not Run |
+| CH-127 | Verify the repair status search field | The user can enter a repair act number into the search field | Not Run |
+| CH-128 | Verify repair status search with a valid act number | The system displays the repair status corresponding to the entered act number | Not Run |
+| CH-129 | Verify repair status search with an invalid act number |	The system displays an appropriate message when the entered act number is invalid or not found | Not Run |
+| CH-130 | Verify expanding the repair FAQ sections |	Clicking an FAQ item expands the corresponding answer |	Not Run |
+| CH-131 | Verify collapsing the repair FAQ sections | Clicking an expanded FAQ item collapses its answer |	Not Run |
+| CH-132 | Verify the "Більше питань та відповідей" button | Clicking the button redirects the user to the additional questions and answers page | Not Run |
+| CH-133 | Verify the empty state in Viewed Products | An appropriate empty-state message is displayed when the user has not viewed any products | Not Run |
+| CH-134 | Verify the Reviews tab in Reviews and Questions | Clicking "Відгуки" displays the user's submitted reviews | Not Run |
+| CH-135 | Verify the Questions tab in Reviews and Questions | Clicking "Питання" displays the user's submitted questions | 	Not Run |
+| CH-136 | Verify the empty state in the Reviews tab | An appropriate message is displayed when the user has not submitted any reviews | Not Run |
+| CH-137 | Verify the empty state in the Questions tab| An appropriate message is displayed when the user has not submitted any questions| Not Run |
 
 ## 5. Product Search
 
