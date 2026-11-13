@@ -76,6 +76,28 @@
 | CH-040 | Verify social media links | Each social media link redirects the user to the corresponding platform | Failed |
 | CH-041 | Verify App Store and Google Play links | The links redirect the user to the corresponding application pages | Passed |
 
+## 12. Authenticated User Account
+
+| **ID** | **Test Scenario** | **Expected Result** | **Status** |
+| ------ | ----------------- | ------------------ | ---------- |
+| CH-091 | Verify welcome pop-up after successful registration or login | A welcome pop-up is displayed with a personalized greeting and available account actions | Not Run |
+| CH-092 | Verify closing the welcome pop-up | Clicking the close button closes the pop-up, and the homepage remains accessible | Not Run |
+| CH-093 | Verify the Cabinet menu for an authenticated user | Clicking the Cabinet icon opens a dropdown menu with available account sections | Not Run |
+| CH-094 | Verify the My Orders option in the Cabinet menu | Clicking "Мої замовлення" opens the user's order history page | Not Run |
+| CH-095 | Verify user profile information in the account page | The user's name, phone number, and email address are displayed correctly when available | Not Run |
+| CH-096 | Verify the empty orders state for a new user | An appropriate empty-state message is displayed when the user has no orders | Not Run |
+| CH-097 | Verify the "Перейти до покупок" link in the empty orders state | Clicking the link redirects the user to the shopping section or homepage | Not Run |
+| CH-098 | Verify the Wallet section in the account menu | Clicking "Гаманець" opens the user's wallet page | Not Run |
+| CH-099 | Verify the Favorites section in the account menu | Clicking "Обрані товари / Очікувані товари" opens the corresponding page | Not Run |
+| CH-100 | Verify the Bonus History section in the account menu | Clicking "Історія бонусів" opens the user's bonus history page | Not Run |
+| CH-101 | Verify the Repair section in the account menu | Clicking "Ремонт" opens the corresponding repair information or service page | Not Run |
+| CH-102 | Verify the Personal Data section in the account menu | Clicking "Персональні дані" opens the user's profile information page | Not Run |
+| CH-103 | Verify the Viewed Products section in the account menu | Clicking "Переглянуті товари" opens the list of recently viewed products | Not Run |
+| CH-104 | Verify the Reviews and Questions section in the account menu | Clicking "Відгуки та питання" opens the corresponding section | Not Run |
+| CH-105 | Verify the logout option in the account page | Clicking "Вийти" logs the user out and redirects to an appropriate page | Not Run |
+| CH-106 | Verify access to the account after logout | After logging out, the user cannot access protected account information without signing in again | Not Run |
+| CH-107 | Verify account session after page refresh | After refreshing the page, the authenticated user remains logged in while the session is valid | Not Run |
+
 ## 5. Product Search
 
 | **ID** | **Test Scenario** | **Expected Result** | **Status** |
