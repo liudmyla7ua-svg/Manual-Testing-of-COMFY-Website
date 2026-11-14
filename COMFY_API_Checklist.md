@@ -38,13 +38,13 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-009 | Verify viewed products API | The API returns the products recently viewed by the authenticated user | Medium | Not Run |
+| API-009 | Verify viewed products API | The API returns the products recently viewed by the authenticated user | Medium | Passed |
 
 ## 6. Authenticated User Account API
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-010 | Verify authenticated user account API | The API returns the correct account information for the authenticated user and does not expose unauthorized personal data | Medium | Not Run |
+| API-010 | Verify authenticated user account API | The API returns the correct account information for the authenticated user and does not expose unauthorized personal data | Medium | Passed |
 
 ---
 
