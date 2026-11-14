@@ -10,17 +10,17 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-001 | Verify product search API with a valid search query | The API returns a list of products matching the search query | High | Not Run |
-| API-002 | Verify product search API with an empty search query | The API handles an empty search query correctly without an unexpected error | Medium | Not Run |
-| API-003 | Verify product search API with a non-existing product name | The API returns an empty result or an appropriate response indicating that no products were found | Medium | Not Run |
+| API-001 | Verify product search API with a valid search query | The API returns a list of products matching the search query | High | Passed |
+| API-002 | Verify product search API with an empty search query | The API handles an empty search query correctly without an unexpected error | Medium | Passed |
+| API-003 | Verify product search API with a non-existing product name | The API returns an empty result or an appropriate response indicating that no products were found | Medium | Passed |
 
 ## 2. Product Details API
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-004 | Verify product details API | The API returns correct information about the selected product | High | Not Run |
-| API-005 | Verify product price in API response | The API returns a valid product price that matches the product page | High | Not Run |
-| API-006 | Verify product availability information | The API returns correct product availability information | High | Not Run |
+| API-004 | Verify product details API | The API returns correct information about the selected product | High | Passed |
+| API-005 | Verify product price in API response | The API returns a valid product price that matches the product page | High | Passed |
+| API-006 | Verify product availability information | The API returns correct product availability information | High | Passed |
 
 ## 3. Product Catalog API
 
