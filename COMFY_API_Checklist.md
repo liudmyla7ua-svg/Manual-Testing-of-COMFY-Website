@@ -32,7 +32,7 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-008 | Verify favorites API | The API returns the authenticated user's favorite products correctly | Medium | Not Run |
+| API-008 | Verify favorites API | The API successfully returns the authenticated user's wishlist, including wishlist names, product IDs, and SKU values. | Medium | Passed |
 
 ## 5. Viewed Products API
 
