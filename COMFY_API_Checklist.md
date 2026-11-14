@@ -26,7 +26,7 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-007 | Verify product catalog API | The API returns a list of products belonging to the selected catalog or category | High | Not Run |
+| API-007 | Verify product catalog API | The API returns a list of catalog categories with their IDs, names, paths, and nested subcategories | High | Passed |
 
 ## 4. Favorites API
 
