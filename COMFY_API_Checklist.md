@@ -32,7 +32,7 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-008 | Verify favorites API | The API successfully returns the authenticated user's wishlist, including wishlist names, product IDs, and SKU values. | Medium | Passed |
+| API-008 | Verify favorites API | The API successfully returns the authenticated user's wishlist, including wishlist names, product IDs, and SKU values | Medium | Passed |
 
 ## 5. Viewed Products API
 
@@ -45,6 +45,21 @@
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
 | API-010 | Verify authenticated user account API | The API returns the correct account information for the authenticated user and does not expose unauthorized personal data | Medium | Passed |
+
+## 7. Shopping Cart API
+
+| ID | Test Scenario | Expected Result | Priority | Status |
+|---|---|---|---|---|
+| API-011 | Verify adding a product to the shopping cart (POST) | The API successfully adds the selected product to the shopping cart and returns the correct product information and quantity | High | Not Run |
+| API-012 | Verify updating the quantity of a cart item (PATCH) | The API successfully updates the product quantity and recalculates the cart total correctly | High | Not Run |
+| API-013 | Verify removing a product from the shopping cart (DELETE) | The API successfully removes the selected product from the cart and recalculates the cart total correctly | High | Not Run |
+
+## 8. User Profile API
+
+| ID | Test Scenario | Expected Result | Priority | Status |
+|---|---|---|---|---|
+| API-014 | Verify updating user profile information (PUT) | The API successfully updates the authenticated user's profile information and saves the submitted data correctly | Medium | Not Run |
+| API-015 | Verify partially updating user profile information (PATCH) | The API updates only the specified profile field while keeping other profile information unchanged | Medium | Not Run |
 
 ---
 
@@ -78,3 +93,4 @@ For each discovered API request, verify:
 - Tests requiring authentication should be performed only with the tester's own account.
 - No real customer data, passwords, access tokens, or session cookies should be included in public GitHub files.
 - API requests that modify data should be tested only when their behavior and impact are understood.
+- HTTP methods for API-011–API-015 must be confirmed against the actual API implementation before execution.
