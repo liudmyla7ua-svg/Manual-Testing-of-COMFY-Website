@@ -50,8 +50,8 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-011 | Verify adding a product to the shopping cart (POST) | The API successfully adds the selected product to the shopping cart and returns the correct product information and quantity | High | Not Run |
-| API-012 | Verify updating the quantity of a cart item (PATCH) | The API successfully updates the product quantity and recalculates the cart total correctly | High | Not Run |
+| API-011 | Verify adding a product to the shopping cart (POST) | The API successfully adds the selected product to the shopping cart and returns the correct product information and quantity | High | Passed |
+| API-012 | Verify updating the quantity of a cart item (PUT) | The API successfully updates the product quantity and recalculates the cart total correctly | High | Passed |
 | API-013 | Verify removing a product from the shopping cart (DELETE) | The API successfully removes the selected product from the cart and recalculates the cart total correctly | High | Not Run |
 
 ## 8. User Profile API
