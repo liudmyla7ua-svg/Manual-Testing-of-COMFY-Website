@@ -58,8 +58,7 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-014 | Verify updating user profile information (PUT) | The API successfully updates the authenticated user's profile information and saves the submitted data correctly | Medium | Not Run |
-| API-015 | Verify partially updating user profile information (PATCH) | The API updates only the specified profile field while keeping other profile information unchanged | Medium | Not Run |
+| API-014 | Verify partially updating user profile information (PATCH) | The API updates only the specified profile field while keeping other profile information unchanged | Medium | Passed |
 
 ---
 
