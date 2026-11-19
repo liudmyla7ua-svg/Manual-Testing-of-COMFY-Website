@@ -58,7 +58,7 @@
 
 | ID | Test Scenario | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| API-014 | Verify partially updating user profile information (PATCH) | The API updates only the specified profile field while keeping other profile information unchanged | Medium | Passed |
+| API-014 | Verify partially updating user profile information | The API updates only the specified profile field while keeping other profile information unchanged | Medium | Passed |
 
 ---
 
