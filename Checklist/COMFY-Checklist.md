@@ -143,7 +143,7 @@
 | CHK-001 | Proceed to checkout with a product in the cart | The checkout page or next checkout step opens successfully | Passed |
 | CHK-002 | Submit the checkout form with empty required fields | Validation messages are displayed for required fields | Passed |
 | CHK-003 | Enter an invalid phone number | The website prevents invalid input or displays an appropriate validation message | Passed |
-| CHK-004 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | Not Run |
+| CHK-004 | Enter an invalid email format, if email is required | An appropriate validation message is displayed | Passed |
 | CHK-005 | Verify available delivery options | Available delivery options are displayed correctly | Passed |
 | CHK-006 | Verify available payment options | Available payment options are displayed correctly | Passed |
 | CHK-007 | Verify the order total before placing an order | The order total corresponds to the selected products, quantities, and applicable delivery costs | Passed |
@@ -162,59 +162,59 @@
 |---|---|---|---|
 | PROMO-001 | Navigate through a product carousel using the arrow buttons | The carousel displays the next or previous products correctly | Passed |
 | PROMO-002 | Click the Show More button in a product section | Additional products are displayed or the relevant product listing page opens | Passed |
-| PROMO-003 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | Not Run |
+| PROMO-003 | Verify promotional product links | Clicking a promotional product or offer opens the corresponding product or promotion page | Passed |
 
 ## 13. Authenticated User Account
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| ACC-001 | Verify the welcome pop-up after successful registration or login | A welcome pop-up is displayed with a personalized greeting and available account actions | Not Run |
-| ACC-002 | Verify closing the welcome pop-up | Clicking the close button closes the pop-up, and the homepage remains accessible | Not Run |
-| ACC-003 | Verify the Cabinet menu for an authenticated user | Clicking the Cabinet icon opens a dropdown menu with available account sections | Not Run |
-| ACC-004 | Verify the My Orders option in the Cabinet menu | Clicking My Orders opens the user's order history page | Not Run |
-| ACC-005 | Verify user profile information on the account page | The user's name, phone number, and email address are displayed correctly when available | Not Run |
-| ACC-006 | Verify the empty orders state for a new user | An appropriate empty-state message is displayed when the user has no orders | Not Run |
-| ACC-007 | Verify the Go Shopping link in the empty orders state | Clicking the link redirects the user to the shopping section or homepage | Not Run |
-| ACC-008 | Verify the Wallet section in the account menu | Clicking Wallet opens the user's wallet page | Not Run |
-| ACC-009 | Verify the Favorites section in the account menu | Clicking Favorites / Expected Products opens the corresponding page | Not Run |
-| ACC-010 | Verify the Bonus History section in the account menu | Clicking Bonus History opens the user's bonus history page | Not Run |
-| ACC-011 | Verify the Repair section in the account menu | Clicking Repair opens the corresponding repair information or service page | Not Run |
-| ACC-012 | Verify the Personal Data section in the account menu | Clicking Personal Data opens the user's profile information page | Not Run |
-| ACC-013 | Verify the Viewed Products section in the account menu | Clicking Viewed Products opens the list of recently viewed products | Not Run |
-| ACC-014 | Verify the Reviews and Questions section in the account menu | Clicking Reviews and Questions opens the corresponding section | Not Run |
-| ACC-015 | Verify the logout option in the account page | Clicking Log Out logs the user out and redirects to an appropriate page | Not Run |
-| ACC-016 | Verify access to the account after logout | After logging out, the user cannot access protected account information without signing in again | Not Run |
-| ACC-017 | Verify the account session after page refresh | After refreshing the page, the authenticated user remains logged in while the session is valid | Not Run |
+| ACC-001 | Verify the welcome pop-up after successful registration or login | A welcome pop-up is displayed with a personalized greeting and available account actions | Passed |
+| ACC-002 | Verify closing the welcome pop-up | Clicking the close button closes the pop-up, and the homepage remains accessible | Passed |
+| ACC-003 | Verify the Cabinet menu for an authenticated user | Clicking the Cabinet icon opens a dropdown menu with available account sections | Passed |
+| ACC-004 | Verify the My Orders option in the Cabinet menu | Clicking My Orders opens the user's order history page | Passed |
+| ACC-005 | Verify user profile information on the account page | The user's name, phone number, and email address are displayed correctly when available | Passed |
+| ACC-006 | Verify the empty orders state for a new user | An appropriate empty-state message is displayed when the user has no orders | Passed |
+| ACC-007 | Verify the Go Shopping link in the empty orders state | Clicking the link redirects the user to the shopping section or homepage | Passed |
+| ACC-008 | Verify the Wallet section in the account menu | Clicking Wallet opens the user's wallet page | Passed |
+| ACC-009 | Verify the Favorites section in the account menu | Clicking Favorites / Expected Products opens the corresponding page | Passed |
+| ACC-010 | Verify the Bonus History section in the account menu | Clicking Bonus History opens the user's bonus history page | Passed |
+| ACC-011 | Verify the Repair section in the account menu | Clicking Repair opens the corresponding repair information or service page | Passed |
+| ACC-012 | Verify the Personal Data section in the account menu | Clicking Personal Data opens the user's profile information page | Passed |
+| ACC-013 | Verify the Viewed Products section in the account menu | Clicking Viewed Products opens the list of recently viewed products | Passed |
+| ACC-014 | Verify the Reviews and Questions section in the account menu | Clicking Reviews and Questions opens the corresponding section | Passed |
+| ACC-015 | Verify the logout option in the account page | Clicking Log Out logs the user out and redirects to an appropriate page | Passed |
+| ACC-016 | Verify access to the account after logout | After logging out, the user cannot access protected account information without signing in again | Passed |
+| ACC-017 | Verify the account session after page refresh | After refreshing the page, the authenticated user remains logged in while the session is valid | Passed |
 | ACC-018 | Verify the Cards tab in the Wallet section | Clicking the Cards tab displays the user's saved cards | Not Run |
 | ACC-019 | Verify the Coupons tab in the Wallet section | Clicking the Coupons tab displays the user's available coupons | Not Run |
 | ACC-020 | Verify the Gift Cards tab in the Wallet section | Clicking the Gift Cards tab displays the user's gift cards | Not Run |
-| ACC-021 | Verify the empty state in the Wallet section | An appropriate empty-state message is displayed when the user has no saved cards or coupons | Not Run |
-| ACC-022 | Verify switching between Wallet tabs | The user can switch between Cards, Coupons, and Gift Cards tabs without errors | Not Run |
-| ACC-023 | Verify the Favorites tab | Clicking the Favorites tab displays the user's favorite products | Not Run |
-| ACC-024 | Verify the Expected Products tab | Clicking the Expected Products tab displays the user's expected products | Not Run |
-| ACC-025 | Verify the empty state in the Favorites tab | An appropriate empty-state message is displayed when the user has no favorite products | Not Run |
-| ACC-026 | Verify the empty state in the Expected Products tab | An appropriate empty-state message is displayed when the user has no expected products | Not Run |
-| ACC-027 | Verify creating a new Favorites list | Clicking Create New List opens an interface for creating a new list | Not Run |
-| ACC-028 | Verify the bonus balance information | The user's current bonus balance and bonus categories are displayed correctly | Not Run |
-| ACC-029 | Verify the empty state in Bonus History | An appropriate message is displayed when the user has no bonus transactions | Not Run |
+| ACC-021 | Verify the empty state in the Wallet section | An appropriate empty-state message is displayed when the user has no saved cards or coupons | Passed |
+| ACC-022 | Verify switching between Wallet tabs | The user can switch between Cards, Coupons, and Gift Cards tabs without errors | Passed |
+| ACC-023 | Verify the Favorites tab | Clicking the Favorites tab displays the user's favorite products | Passed |
+| ACC-024 | Verify the Expected Products tab | Clicking the Expected Products tab displays the user's expected products | Passed |
+| ACC-025 | Verify the empty state in the Favorites tab | An appropriate empty-state message is displayed when the user has no favorite products | Passed |
+| ACC-026 | Verify the empty state in the Expected Products tab | An appropriate empty-state message is displayed when the user has no expected products | Passed |
+| ACC-027 | Verify creating a new Favorites list | Clicking Create New List opens an interface for creating a new list | Passed |
+| ACC-028 | Verify the bonus balance information | The user's current bonus balance and bonus categories are displayed correctly | Passed |
+| ACC-029 | Verify the empty state in Bonus History | An appropriate message is displayed when the user has no bonus transactions | Passed |
 | ACC-030 | Verify the bonus history information message | The message explaining when bonus history becomes available is displayed correctly | Not Run |
-| ACC-031 | Verify the All filter in Communication History | Clicking All displays all available communication records | Not Run |
-| ACC-032 | Verify the Orders filter in Communication History | Clicking Orders displays only order-related communications | Not Run |
-| ACC-033 | Verify the Personal filter in Communication History | Clicking Personal displays only personal communications | Not Run |
-| ACC-034 | Verify the Offers filter in Communication History | Clicking Offers displays only promotional communications | Not Run |
-| ACC-035 | Verify switching between Communication History filters | The user can switch between all filters without page errors or incorrect content | Not Run |
-| ACC-036 | Verify the empty state in Communication History | An appropriate empty-state message is displayed when there are no communications | Not Run |
-| ACC-037 | Verify the repair status search field | The user can enter a repair act number into the search field | Not Run |
+| ACC-031 | Verify the All filter in Communication History | Clicking All displays all available communication records | Passed |
+| ACC-032 | Verify the Orders filter in Communication History | Clicking Orders displays only order-related communications | Passed |
+| ACC-033 | Verify the Personal filter in Communication History | Clicking Personal displays only personal communications | Passed |
+| ACC-034 | Verify the Offers filter in Communication History | Clicking Offers displays only promotional communications | Passed |
+| ACC-035 | Verify switching between Communication History filters | The user can switch between all filters without page errors or incorrect content | Passed |
+| ACC-036 | Verify the empty state in Communication History | An appropriate empty-state message is displayed when there are no communications | Passed |
+| ACC-037 | Verify the repair status search field | The user can enter a repair act number into the search field | Passed |
 | ACC-038 | Verify repair status search with a valid act number | The system displays the repair status corresponding to the entered act number | Not Run |
-| ACC-039 | Verify repair status search with an invalid act number | The system displays an appropriate message when the entered act number is invalid or not found | Not Run |
-| ACC-040 | Verify expanding the repair FAQ sections | Clicking an FAQ item expands the corresponding answer | Not Run |
-| ACC-041 | Verify collapsing the repair FAQ sections | Clicking an expanded FAQ item collapses its answer | Not Run |
-| ACC-042 | Verify the More Questions and Answers button | Clicking the button redirects the user to the additional questions and answers page | Not Run |
-| ACC-043 | Verify the empty state in Viewed Products | An appropriate empty-state message is displayed when the user has not viewed any products | Not Run |
+| ACC-039 | Verify repair status search with an invalid act number | The system displays an appropriate message when the entered act number is invalid or not found | Passed |
+| ACC-040 | Verify expanding the repair FAQ sections | Clicking an FAQ item expands the corresponding answer | ? |
+| ACC-041 | Verify collapsing the repair FAQ sections | Clicking an expanded FAQ item collapses its answer | Passed |
+| ACC-042 | Verify the More Questions and Answers button | Clicking the button redirects the user to the additional questions and answers page | Passed |
+| ACC-043 | Verify the empty state in Viewed Products | An appropriate empty-state message is displayed when the user has not viewed any products | Passed |
 | ACC-044 | Verify the Reviews tab in Reviews and Questions | Clicking Reviews displays the user's submitted reviews | Not Run |
 | ACC-045 | Verify the Questions tab in Reviews and Questions | Clicking Questions displays the user's submitted questions | Not Run |
-| ACC-046 | Verify the empty state in the Reviews tab | An appropriate message is displayed when the user has not submitted any reviews | Not Run |
-| ACC-047 | Verify the empty state in the Questions tab | An appropriate message is displayed when the user has not submitted any questions | Not Run |
+| ACC-046 | Verify the empty state in the Reviews tab | An appropriate message is displayed when the user has not submitted any reviews | Passed |
+| ACC-047 | Verify the empty state in the Questions tab | An appropriate message is displayed when the user has not submitted any questions | Passed |
 
 ## 14. UI and Responsive Testing
 
