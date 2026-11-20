@@ -224,14 +224,14 @@
 | RESP-002 | Verify homepage layout at tablet resolution (768px) | Content adapts to the viewport without unintended overlapping or horizontal overflow | Passed |
 | RESP-003 | Verify homepage layout at mobile resolution (375px) | Main content and interactive elements are displayed correctly without horizontal overflow | Passed |
 | RESP-004 | Verify homepage layout at mobile resolution (320px) | Content remains accessible, readable, and usable on a small screen | Passed |
-| RESP-005 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | Not Run |
+| RESP-005 | Verify product details page layout at tablet and mobile resolutions | Product information and interactive elements adapt correctly to smaller screens | Passed |
 
 ## 15. Footer Testing
 
 | ID | Test Scenario | Expected Result | Status |
 |---|---|---|---|
-| FOOT-001 | Verify footer visibility | The footer is displayed correctly at the bottom of the page | Not Run |
-| FOOT-002 | Verify footer section headings | All footer section headings are visible and correctly displayed | Not Run |
+| FOOT-001 | Verify footer visibility | The footer is displayed correctly at the bottom of the page | Passed |
+| FOOT-002 | Verify footer section headings | All footer section headings are visible and correctly displayed | Passed |
 | FOOT-003 | Verify the About the Company link | Clicking the About the Company link redirects the user to the corresponding page | Passed |
 | FOOT-004 | Verify the content of the About the Company page | The content is displayed correctly without visual defects | Passed |
 | FOOT-005 | Verify the Shops link | Clicking the Shops link redirects the user to the corresponding page | Passed |
@@ -240,57 +240,57 @@
 | FOOT-008 | Verify the content of the Contacts page | The content is displayed correctly without visual defects | Passed |
 | FOOT-009 | Verify the Press Center link | Clicking the Press Center link opens the corresponding page | Passed |
 | FOOT-010 | Verify the content of the Press Center page | The content is displayed correctly without visual defects | Failed |
-| FOOT-011 | Verify the Job at COMFY link | Clicking the Job at COMFY link opens the corresponding page | Not Run |
-| FOOT-012 | Verify the content of the Job at COMFY page | The content is displayed correctly without visual defects | Not Run |
-| FOOT-013 | Verify the Safety and Precautions link | Clicking the Safety and Precautions link opens the corresponding page | Not Run |
-| FOOT-014 | Verify the content of the Safety and Precautions page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-011 | Verify the Job at COMFY link | Clicking the Job at COMFY link opens the corresponding page | Passed |
+| FOOT-012 | Verify the content of the Job at COMFY page | The content is displayed correctly without visual defects | Passed |
+| FOOT-013 | Verify the Safety and Precautions link | Clicking the Safety and Precautions link opens the corresponding page | Passed |
+| FOOT-014 | Verify the content of the Safety and Precautions page | The content is displayed correctly without visual defects | Passed |
 | FOOT-015 | Verify the Tender link | Clicking the Tender link opens the corresponding page | Passed |
-| FOOT-016 | Verify the content of the Tender page | The content is displayed correctly without visual defects | Not Run |
-| FOOT-017 | Verify the For Partners link | Clicking the For Partners link opens the corresponding page | Not Run |
-| FOOT-018 | Verify the content of the For Partners page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-016 | Verify the content of the Tender page | The content is displayed correctly without visual defects | Passed |
+| FOOT-017 | Verify the For Partners link | Clicking the For Partners link opens the corresponding page | Passed |
+| FOOT-018 | Verify the content of the For Partners page | The content is displayed correctly without visual defects | Passed |
 | FOOT-019 | Verify the Product Catalog link | Clicking the Product Catalog link opens the corresponding page | Passed |
-| FOOT-020 | Verify the content of the Product Catalog page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-020 | Verify the content of the Product Catalog page | The content is displayed correctly without visual defects | Passed |
 | FOOT-021 | Verify the COMFY Helps link | Clicking the COMFY Helps link opens the corresponding page | Passed |
-| FOOT-022 | Verify the content of the COMFY Helps page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-022 | Verify the content of the COMFY Helps page | The content is displayed correctly without visual defects | Passed |
 | FOOT-023 | Verify the Bonus Program link | Clicking the Bonus Program link opens the corresponding page | Passed |
-| FOOT-024 | Verify the content of the Bonus Program page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-024 | Verify the content of the Bonus Program page | The content is displayed correctly without visual defects | Passed |
 | FOOT-025 | Verify the Gift Cards link | Clicking the Gift Cards link opens the corresponding page | Passed |
-| FOOT-026 | Verify the content of the Gift Cards page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-026 | Verify the content of the Gift Cards page | The content is displayed correctly without visual defects | Passed |
 | FOOT-027 | Verify the Services, Subscriptions and Software link | Clicking the Services, Subscriptions and Software link opens the corresponding page | Passed |
-| FOOT-028 | Verify the content of the Services, Subscriptions and Software page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-028 | Verify the content of the Services, Subscriptions and Software page | The content is displayed correctly without visual defects | Passed |
 | FOOT-029 | Verify the Credit and Payment in Installments link | Clicking the Credit and Payment in Installments link opens the corresponding page | Passed |
-| FOOT-030 | Verify the content of the Credit and Payment in Installments page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-030 | Verify the content of the Credit and Payment in Installments page | The content is displayed correctly without visual defects | Passed |
 | FOOT-031 | Verify the Trade-In link | Clicking the Trade-In link opens the corresponding page | Passed |
-| FOOT-032 | Verify the content of the Trade-In page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-032 | Verify the content of the Trade-In page | The content is displayed correctly without visual defects | Passed |
 | FOOT-033 | Verify the Service Contracts link | Clicking the Service Contracts link opens the corresponding page | Passed |
-| FOOT-034 | Verify the content of the Service Contracts page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-034 | Verify the content of the Service Contracts page | The content is displayed correctly without visual defects | Passed |
 | FOOT-035 | Verify the Non-Cash Accounts link | Clicking the Non-Cash Accounts link opens the corresponding page | Passed |
-| FOOT-036 | Verify the content of the Non-Cash Accounts page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-036 | Verify the content of the Non-Cash Accounts page | The content is displayed correctly without visual defects | Passed |
 | FOOT-037 | Verify the Payment link | Clicking the Payment link opens the corresponding page | Passed |
-| FOOT-038 | Verify the content of the Payment page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-038 | Verify the content of the Payment page | The content is displayed correctly without visual defects | Passed |
 | FOOT-039 | Verify the Customer Assistance Center link | Clicking the Customer Assistance Center link opens the corresponding page | Passed |
-| FOOT-040 | Verify the content of the Customer Assistance Center page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-040 | Verify the content of the Customer Assistance Center page | The content is displayed correctly without visual defects | Passed |
 | FOOT-041 | Verify the Find an Order link | Clicking the Find an Order link opens the corresponding page | Passed |
-| FOOT-042 | Verify the content of the Find an Order page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-042 | Verify the content of the Find an Order page | The content is displayed correctly without visual defects | Passed |
 | FOOT-043 | Verify the Terms of Delivery link | Clicking the Terms of Delivery link opens the corresponding page | Passed |
-| FOOT-044 | Verify the content of the Terms of Delivery page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-044 | Verify the content of the Terms of Delivery page | The content is displayed correctly without visual defects | Passed |
 | FOOT-045 | Verify the Exchange and Return of Item link | Clicking the Exchange and Return of Item link opens the corresponding page | Passed |
-| FOOT-046 | Verify the content of the Exchange and Return of Item page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-046 | Verify the content of the Exchange and Return of Item page | The content is displayed correctly without visual defects | Passed |
 | FOOT-047 | Verify the Warranty link | Clicking the Warranty link opens the corresponding page | Passed |
-| FOOT-048 | Verify the content of the Warranty page | The content is displayed correctly without visual defects | Not Run |
+| FOOT-048 | Verify the content of the Warranty page | The content is displayed correctly without visual defects | Passed |
 | FOOT-049 | Verify the Terms of Use link | Clicking the Terms of Use link opens the corresponding page | Passed |
-| FOOT-050 | Verify the content of the Terms of Use page | The content is displayed correctly without visual defects | Not Run |
-| FOOT-051 | Verify customer support phone numbers | Phone numbers are visible and clickable | Not Run |
-| FOOT-052 | Verify customer support email | Clicking the email address opens the default email application with the correct recipient | Not Run |
-| FOOT-053 | Verify footer social media links | Each social media icon redirects the user to the corresponding platform | Not Run |
-| FOOT-054 | Verify footer newsletter subscription form | The email field and subscription button are displayed and functional | Not Run |
-| FOOT-055 | Verify footer newsletter form validation | Invalid email addresses are rejected, and appropriate validation messages are displayed | Not Run |
-| FOOT-056 | Verify footer layout on Desktop | Footer elements are correctly aligned and do not overlap | Not Run |
-| FOOT-057 | Verify footer layout on Tablet | Footer elements are displayed correctly at tablet screen widths | Not Run |
-| FOOT-058 | Verify footer layout on Mobile | Footer elements are displayed correctly at mobile screen widths | Not Run |
-| FOOT-059 | Verify footer text alignment and spacing | Text elements have appropriate margins, padding, and spacing | Not Run |
-| FOOT-060 | Verify footer link hover states | Footer links display the correct hover effect when the cursor is moved over them | Not Run |
-| FOOT-061 | Verify footer content after page refresh | Footer content remains correctly displayed after refreshing the page | Not Run |
+| FOOT-050 | Verify the content of the Terms of Use page | The content is displayed correctly without visual defects | Passed |
+| FOOT-051 | Verify customer support phone numbers | Phone numbers are visible and clickable | Passed |
+| FOOT-052 | Verify customer support email | Clicking the email address opens the default email application with the correct recipient | Passed |
+| FOOT-053 | Verify footer social media links | Each social media icon redirects the user to the corresponding platform | ? |
+| FOOT-054 | Verify footer newsletter subscription form | The email field and subscription button are displayed and functional | Passed |
+| FOOT-055 | Verify footer newsletter form validation | Invalid email addresses are rejected, and appropriate validation messages are displayed | Passed |
+| FOOT-056 | Verify footer layout on Desktop | Footer elements are correctly aligned and do not overlap | Passed |
+| FOOT-057 | Verify footer layout on Tablet | Footer elements are displayed correctly at tablet screen widths | Passed |
+| FOOT-058 | Verify footer layout on Mobile | Footer elements are displayed correctly at mobile screen widths | Passed |
+| FOOT-059 | Verify footer text alignment and spacing | Text elements have appropriate margins, padding, and spacing | Passed |
+| FOOT-060 | Verify footer link hover states | Footer links display the correct hover effect when the cursor is moved over them | Passed |
+| FOOT-061 | Verify footer content after page refresh | Footer content remains correctly displayed after refreshing the page | Passed |
 
 ---
 
